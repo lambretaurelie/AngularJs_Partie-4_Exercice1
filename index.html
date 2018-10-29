@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercice 1</title>
+  <script src="assets/angularjs/angular.js"></script>
+  <script src="assets/js/script.js"></script>
+</head>
+<body ng-app>
+  <div>
+    <input type="button" name="positif" value="positif " ng-init="count=0" ng-click="count = count + 1"/>
+    <input type="button" name="negatif" value="negatif" ng-init="count=0" ng-click="count = count - 1"/>
+    <span>
+     Nombre de clicks: {{count}}
+    </span>
+  </div>
+</body>
+</html>
